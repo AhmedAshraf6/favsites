@@ -1,0 +1,98 @@
+/* Space out content a bit */
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #141115;
+  min-height: 100vh;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+/*
+.special{
+    
+    filter:blur(10);
+}
+*/
+
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.marketing {
+  padding: 0;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px; /* Make the masthead heading the same height as the navigation */
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+@media (max-width: 768px) {
+  .container-narrow > hr {
+    margin: 50px 0;
+  }
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 9px 20px;
+  font-size: 21px;
+}
+.btn {
+  margin-right: 10px;
+}
+/* Supporting marketing content */
+.marketing {
+  margin: 0 0;
+}
+.marketing span {
+  margin-bottom: 10px;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
